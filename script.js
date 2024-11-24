@@ -1,11 +1,12 @@
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-    databaseURL: "https://YOUR_PROJECT_ID.firebaseio.com",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_PROJECT_ID.appspot.com",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyCgHCkWPee6csox2J5zgjalaoGX1Fo9B7s",
+  authDomain: "blac-magik-movies.firebaseapp.com",
+  databaseURL: "https://blac-magik-movies-default-rtdb.firebaseio.com",
+  projectId: "blac-magik-movies",
+  storageBucket: "blac-magik-movies.firebasestorage.app",
+  messagingSenderId: "812397319774",
+  appId: "1:812397319774:web:740069526fb209dbe8c6cf",
+  measurementId: "G-6L12HTGJD2"
 };
 
 // Initialize Firebase
