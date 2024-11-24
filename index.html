@@ -12,40 +12,42 @@
 <body>
 
     <div class="container my-5">
-        <h1 class="text-center text-dark" style="font-family: 'Dancing Script', cursive;">Group Registration</h1>
-        <p class="text-center text-muted">Join the <strong>Cyber Snipper</strong> community by registering below!</p>
+        <h1 class="text-center text-dark">Group Registration</h1>
+        <p class="text-center text">Register to join Cyber Snipper</p>
 
         <!-- Registration Form -->
-        <form id="registrationForm" class="p-4 bg-dark text-white rounded shadow-lg">
-            <div class="mb-4">
+        <form id="registrationForm" class="p-4 bg-dark text-white rounded shadow">
+            <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control rounded-pill px-3" id="name" placeholder="Enter your name" required>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
             </div>
-            <div class="mb-4">
+            <div class="mb-3">
                 <label for="phone" class="form-label">Phone Number</label>
-                <input type="number" class="form-control rounded-pill px-3" id="phone" placeholder="Enter your phone number" required>
+                <input type="number" class="form-control" id="phone" placeholder="Enter your phone number" required>
             </div>
-            <div class="mb-4">
+            <div class="mb-3">
                 <label for="age" class="form-label">Age</label>
-                <input type="number" class="form-control rounded-pill px-3" id="age" placeholder="Enter your age" required>
+                <input type="number" class="form-control" id="age" placeholder="Enter your age" required>
             </div>
-            <div class="mb-4">
+            <div class="mb-3">
                 <label for="skill" class="form-label">Skill</label>
-                <input type="text" class="form-control rounded-pill px-3" id="skill" placeholder="Enter your skill" required>
+                <input type="text" class="form-control" id="skill" placeholder="Enter your skill" required>
             </div>
-            <button type="submit" class="btn btn-primary w-100 rounded-pill bubble-button">Submit</button>
+            <button type="submit" class="btn btn-primary w-100">Submit</button>
         </form>
 
         <!-- Check Students Info Button -->
-        <button id="checkInfoBtn" class="btn btn-info mt-4 w-100 rounded-pill bubble-button">Check Students Info</button>
+        <button id="checkInfoBtn" class="btn btn-info mt-3 w-100">Check Students Info</button>
 
         <!-- Display Students Info -->
-        <div id="studentsInfo" class="mt-5 text-white" style="display: none;">
+        <div id="studentsInfo" class="mt-4 text-white" style="display: none;">
             <h3 class="text-center">Registered Students</h3>
-            <div id="studentsList" class="mt-3 p-3 bg-light text-dark rounded"></div>
+            <div id="studentsList" class="mt-3"></div>
         </div>
     </div>
 
+    <script src="https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.3/firebase-database.js"></script>
     <script src="script.js"></script>
 </body>
-</html>
+</html> 
